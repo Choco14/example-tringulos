@@ -1,0 +1,17 @@
+.btn-medium {
+	font-size: $font-size;
+}
+
+.btn-primary {
+	background: $brand-primary;
+	color: rgba(255,255,255,0.9);
+}
+.btn-secundary {
+	background: $brand-secundary;
+	color: rgba(255,255,255,0.9);
+}
+
+.btn-white {
+	background: rgba(255,255,255,0.9);
+	color: $brand-secundary;
+}

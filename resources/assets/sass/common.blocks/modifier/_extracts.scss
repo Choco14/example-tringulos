@@ -1,0 +1,36 @@
+.extract-font-secundary {
+	font-family: $font-family-primary;
+}
+
+.extract__strong {
+	font-family: $font-family-primary__bold;
+}
+
+.extract-color-white {
+	color: rgba($white,0.9);
+}
+
+.extract-medium {
+	font-size: $font-size-llarge;
+}
+
+.extract-big {
+	font-size: $font-size-mlarge + 2;
+}
+
+.extract-color-primary {
+	color:	$brand-primary;
+}
+
+.extract {
+	strong {
+		color:	$brand-primary;
+	}
+}
+.extract-bold {
+	font-weight: bold;
+}
+
+.extract-white {
+	color: $white;
+}

@@ -1,0 +1,33 @@
+@media screen and (max-width: 991px) {
+	.content {
+		float: none;
+	}
+	.content-padding {
+		padding: 3vh 3vw;
+		padding-top: 0;
+	}
+	.content-section {
+		margin-top: 87px;
+	}
+	.content-section-not-title {
+		margin-top: 80px;
+	}
+	.content-height-full {
+		margin-top: 80px;
+	}
+	.content-magazine {
+		margin-top: 10px;
+	}
+	.content-header-categories {
+		padding-top: 270px;
+	}
+	.content-header-not-categories {
+		padding-top: 228px;
+	}
+}
+@media screen and (max-width: 776px) {
+	.content-padding {
+		padding: 0px 15px;
+		padding-top: 0;
+	}
+}

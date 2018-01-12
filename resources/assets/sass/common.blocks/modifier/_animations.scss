@@ -1,0 +1,25 @@
+.img-logo-animate {
+	margin-top: -10px;
+	opacity: 0;
+}
+
+.title-home {
+	margin-bottom: -20px;
+	opacity: 0;
+	strong {
+		color: white;
+		margin-top: 20px;
+		display: block;
+	}
+}
+
+.margin-top-animation {
+	margin-top: 0;
+	opacity: 1;
+	transition: margin-top 1s, opacity 0.5s;
+}
+.margin-top-animationTwo {
+	margin-top: 40px;
+	opacity: 1;
+	transition: margin-top 1s, opacity 0.5s;
+}

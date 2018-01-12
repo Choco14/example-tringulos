@@ -1,0 +1,36 @@
+.button-circle {
+  display: none;
+}
+@media screen and (max-width: $screen-xs-min) {
+  .dropdown-menu {
+    box-shadow: 0 2px 10px rgba(0,0,0,.2);
+    left: auto;
+    padding: 0 15px;
+    right: -10px;
+    top: 50px;
+    width: 260px;
+    border-radius: 0.5px;
+    p {
+      text-align: center;
+    }
+    .rombo {
+      background: white;
+      height: 15px;
+      position: absolute;
+      right: 20px;
+      top: -6px;
+      transform: rotate(45deg);
+      width: 15px;
+    }
+  }
+  .button-circle {
+    float: right;
+    text-align: center;
+    display: block;
+    margin-top: 7px;
+    i {
+      font-size: $font-size-mlarge + 3;
+      color: $brand-secundary;
+    }
+  }
+}

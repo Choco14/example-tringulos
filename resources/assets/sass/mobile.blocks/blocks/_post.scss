@@ -1,0 +1,21 @@
+@media screen and (max-width: 480px) {
+	.post-image-description {
+		.image {
+			height: 40vh;
+			}
+		.description {
+			height: initial;
+		}
+	}
+	.post-inline {
+		height: inherit;
+		>div {
+			width: 100%;
+			float: none;
+			.diamond-left {
+				left: calc(50% - 20px);
+				top: -15px;
+			}
+		}
+	}
+}

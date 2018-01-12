@@ -1,0 +1,20 @@
+.icon-medium {
+	width: 80px;
+	@media screen and (max-width: 991px) {
+		width: 60px;
+	}
+}
+
+.icon-medium-extra {
+	width: 100px;
+}
+
+.icon-big {
+	width: 200px;
+	@media screen and (max-width: $screen-xs-min) {
+		width: 60px;
+	}
+}
+.icon-small {
+	width: 15px;
+}

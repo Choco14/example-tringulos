@@ -1,0 +1,49 @@
+.title-font-primary {
+	font-family: $font-family-primary;
+}
+
+.title-font-primary-bold {
+	font-family: $font-family-primary__bold;
+}
+
+.title-font-secundary {
+	font-family: $font-family-secundary;
+}
+
+.title-color-white {
+	color: rgba($white,0.9);
+	strong {
+		color: rgba(0,0,0,0.9);
+		display: block;
+	}
+}
+
+.title-small {
+	font-size: $font-size-h-4;
+}
+
+.title-medium {
+	font-size: $font-size-mlarge + 2;
+}
+
+.title-big {
+	font-size: $font-size-h-1 + 10;
+	@media screen and (max-width: $screen-xs-min) {
+		font-size: $font-size-h-2 + 1;
+	}
+}
+
+.title-color-primary {
+	color:	$brand-primary;
+}
+
+.title-bold {
+	font-weight: bold;
+}
+
+.title-home {
+	strong {
+		color: white;
+		margin-top: 20px;
+	}
+}

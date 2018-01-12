@@ -1,0 +1,50 @@
+.list-line {
+	li {
+		display: inline-block;
+		list-decoration: none;
+	}
+}
+.list-navigation {
+	margin-top: 22px;
+	margin-bottom: 22px;
+	position: relative;
+	display: block;
+	border: none;
+	box-shadow: none;
+	transition: margin 1s;
+	@media screen and (max-width: $screen-xs-min) {
+		position: absolute;
+		border: 1px solid #ccc;
+		box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+		display: none;
+		margin: 0;
+		padding: 10px 0;
+		right: 5px!important;
+	}
+	.rombo {
+		display: none;
+		@media screen and (max-width: $screen-xs-min) {
+		    background: white;
+		    height: 15px;
+		    position: absolute;
+		    right: 10px;
+		    top: -6px;
+		    transform: rotate(45deg);
+		    width: 15px;
+		    border-left: 1px solid #ccc;
+			border-top: 1px solid #ccc;
+			display: block;
+		}
+    }
+	li {
+		padding-left: 10px;
+		padding-right: 10px;
+		a {
+			color: rgba(0,0,0,0.8)!important;
+			font-size: $font-size;
+		}
+		@media screen and (max-width: $screen-xs-min) {
+			display: block;
+		}
+	}
+}
